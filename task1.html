@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Youtube</title>
+</head>
+
+<body class="bg-black text-white">
+
+
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <!-- i added justify-content-between and split the nav to 3 parts -->
+    <div class="container-fluid justify-content-between d-flex align-items-center">
+      <!-- first part is youtube logo -->
+      <div class="d-flex align-items-center">
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png"
+          alt="Youtube" width="30" height="24">
+        <a href="https://www.youtube.com/" class="navbar-brand fw-bold ms-1 ">Youtube</a>
+        </a>
+      </div>
+      <!-- second part is search bar and mic icon -->
+      <div class="d-flex justify-content-center">
+        <form class="d-flex" role="search">
+          
+          <input class="form-control mx-auto border border-1 border-white " type="search" placeholder="Search"
+            aria-label="Search">
+          <button class="btn btn-outline-light" type="submit"><i class="bi bi-search-heart"></i></button>
+          
+          <button class="btn btn-outline-light rounded-5 ml-1" type="submit"><i class="bi bi-mic"></i></button>
+        </form>
+      </div>
+      <!-- third part is create button, bell icon and profile icon -->
+      <div class="d-flex align-items-center ">
+       
+        <!-- Vertically centered modal -->
+<!-- <div class="modal-dialog modal-dialog-centered"> 
+  <button class="btn btn-dark btn-outline-light rounded-5" type="button">
+    <i class="bi bi-plus-lg"></i> create
+  </button>
+ </div> -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-black btn-outline-light rounded-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <i class="bi bi-plus-lg"></i> create
+</button>
+
+<!-- Modal -->
+<div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+  <div class="modal-dialog"style="width: 1000px;">
+    <div class="modal-content"style="width: 1000px;">
+      <div class="modal-header"style="width: 1000px;">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"style="width: 1000px;">
+          <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png"
+          alt="Youtube" width="30" height="24">Youtube</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3 class="fw-bold">Ad blockers are not allowed on YouTube</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark btn-outline-light rounded-5" data-bs-dismiss="modal">Allow Youtube Ads</button>
+        <button type="button" class="btn btn-dark btn-outline-light rounded-5">Try Youtube Premium</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Vertically centered scrollable modal -->
+
+     
+         <button class="btn btn-dark btn-outline-light rounded-5 ml-1"><i class="bi bi-bell"></i></button> 
+        <button class="btn btn-dark btn-outline-light rounded-5 ml-1"><i class="bi bi-person"></i></button> 
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="">
+
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>Computer files</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>AI</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>C++</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>All</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>JavaScript</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>Podcasts</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>Live </button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>Enterepreneurship</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>Recently uploded</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>Ambient Music</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>Wached</button>
+    <button type="button" class="btn btn-outline-light rounded-4 mt-3" disabled>New to you</button>
+
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-2">
+
+  <div class="container justify-content-between text-start mt-3">
+        <div class="d-flex"> 
+          <div class="bg-black p-3" style="width: 250px; height: 100vh; position: fixed; left: 0; top: 60px; overflow-y: auto;">
+              <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-house-door-fill me-2"></i> Home
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-youtube me-2"></i> Shorts
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-collection-play me-2"></i> Subscriptions
+                  </a>
+              </div>
+              
+              <hr class="text-secondary">
+              
+              <h6 class="text-secondary ps-2">You <i class="bi bi-arrow-bar-right ms-2"></i></h6>
+              <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-clock-history me-2"></i> History
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-music-note-list me-2"></i> Playlists
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-clock me-2"></i> Watch later
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-hand-thumbs-up me-2"></i> Liked videos
+                  </a>
+              </div>
+              
+              <hr class="text-secondary">
+              
+              <h6 class="text-secondary ps-2">Explore</h6>
+              <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-fire me-2"></i> Trending
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-music-note-beamed me-2"></i> Music
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action bg-black text-white border-0 d-flex align-items-center">
+                      <i class="bi bi-broadcast me-2"></i> Live
+                  </a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="col-10">
+
+          
+              <!-- <div class="content"> -->
+                <div class="card" style="width: 18rem;">
+                  <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                  <div class="col">
+                      <div class="card bg-dark text-white h-80">
+                          <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" class="card-img-top" alt="Data Analyst">
+                          <div class="card-body">
+                              <h5 class="card-title">Day in the Life of a Data Analyst</h5>
+                              <p> Coding with Dee <br> 64.9K subscribers</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card bg-dark text-white h-80">
+                          <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" class="card-img-top" alt="قران">
+                          <div class="card-body">
+                              <h5 class="card-title">أرح سمعك وقلبك بالقرآن </h5>
+                              <p> q4ran <br> 146K subscribers</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card bg-dark text-white h-80">
+                          <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" class="card-img-top" alt="برمودا">
+                          <div class="card-body">
+                              <h5 class="card-title">برمودا الأرض .. منطقة حزام الصمت</h5>
+                              <p> Fares Ashour <br> 4.51M subscribers</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card bg-dark text-white h-80">
+                          <img src="img5.png" class="card-img-top" alt="سفر">
+                          <div class="card-body">
+                              <h5 class="card-title">سافرت أجمل بلد في العالم </h5>
+                              <p> Ibn Hattuta <br> 2.79M subscribers</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card bg-dark text-white h-80">
+                          <img src="img6.png" class="card-img-top" alt="HTML وتعديل خصائصه باستخدام JavaScript">
+                          <div class="card-body">
+                              <h5 class="card-title">الوصول إلى محتوى عنصر HTML وتعديل خصائصه باستخدام JavaScript</h5>
+                              <p> Software - أحمد محمد <br> 3.62K subscribers</p>
+                 </div>
+                </div> 
+              </div>
+            </div>
+          </div> 
+    </div>
+        </div>
+      </div>
+    </div>
+       
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
